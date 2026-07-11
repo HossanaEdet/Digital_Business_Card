@@ -32,11 +32,18 @@ h5{
 
 .email-button{
   text-align: center;
-  display: block;
+  display: flex;
   background:white;
   color: #374151;
   border-radius: 6px;
+  justify-content: center;
+  align-items: center;
 padding: 10px;
+}
+
+.email-button img{
+  width: 18px;
+  height: 18px;
 }
 
 #head2{
@@ -66,6 +73,11 @@ p.interests{
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
+}
+
+.footer img{
+  width: 25px;
+  height: 25px;
 }
 
 .footer a{
